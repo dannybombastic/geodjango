@@ -191,6 +191,6 @@
           
   
   - name: last steps 
-    raw: echo "sudo su - postgres | createdb <NAME>  CREATE EXTENSION postgis;  select PostGIG_full_version();"
+    raw: echo "sudo su - postgres | createdb <NAME>  CREATE EXTENSION postgis;  select PostGIS_full_version();"
     tags: 
           - 8 
